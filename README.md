@@ -1,3 +1,7 @@
+Version Number: 627d7be039e0085025a51d47e42bdd970409ec1c
+
+This was built and tested with node version 12.2.0
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
