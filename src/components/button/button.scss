@@ -1,0 +1,28 @@
+@import '../../styles/imports';
+
+.calculator__btn {
+  border: none;
+  background-color: theme(light);
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1rem;
+  &:active {
+    background-color: darken(theme(light), 10);
+  }
+}
+
+.calculator__btn--operator {
+  background-color: theme(primary);
+  color: theme(white);
+  &:active {
+    background-color: darken(theme(primary), 10);
+  }
+}
+
+.calculator__btn--operator-clear,
+.calculator__btn--operator-percent {
+  background-color: darken(theme(light), 10);
+  &:active {
+    background-color: darken(theme(light), 20);
+  }
+}

@@ -1,0 +1,34 @@
+@import '../../styles/imports';
+
+.calculator__grid-item-total {
+  grid-column: 1 / span 4;
+}
+
+.calculator__grid-item.operator--clear {
+  grid-column: 1 / span 3;
+}
+
+.calculator__total {
+  background-color: $calculator-total-bg;
+  color: $calculator-total-color;
+  border: 0;
+  box-sizing: border-box;
+  width: 100%;
+  padding: $calculator-button-padding;
+  text-align: right;
+  font-size: 1.6rem;
+}
+
+.calculator__grid-item.operator--multiply {
+  grid-column: 4;
+  grid-row: 3;
+}
+
+.calculator__grid-item.operator--divide {
+  grid-column: 4;
+  grid-row: 4;
+}
+
+.calculator__grid-item-zero {
+  grid-column: 1 / span 2;
+}
