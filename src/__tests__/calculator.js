@@ -15,3 +15,17 @@ it('subtracts some numbers', () => {
 it('divides some numbers', () => {
   expect(Calculator.divide(10,2)).toEqual(5);
 });
+
+describe('given and array of numbers and operators', () => {
+
+  it('returns a value based on the given operator', () => {
+    const arr = ['3','+','1'];
+    expect(Calculator.doCalculation(arr)).toEqual(4);
+  });
+
+  it('returns a value based on multiple calculations', () => {
+    const arr = ['3','+','1','×','5'];
+    expect(Calculator.doCalculation(arr)).toEqual(20);
+  });
+
+})
