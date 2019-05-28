@@ -1,12 +1,15 @@
 import React from 'react';
+import Header from './components/header/header';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-      Equal Experts Calculator
-      </header>
-    </div>
+    <>
+      <form className="calculator-container">
+        <div className="calculator">
+          <Header />
+        </div>
+      </form>
+    </>
   );
 }
 

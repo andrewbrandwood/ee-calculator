@@ -1,0 +1,27 @@
+@import './imports';
+@import 'normalize';
+
+body, html {
+  height: 100%;
+}
+
+.app {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.calculator-container {
+  margin: 0 auto;
+  max-width: 90%;
+  width: 300px;
+}
+
+.calculator {
+  display: grid;
+  grid-gap: 1px;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: $calculator-border-color;
+  //border: 1px solid $calculator-border-color;
+  box-shadow: 0 0 10px lighten($calculator-border-color, 40);
+}

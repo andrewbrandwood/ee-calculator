@@ -1,0 +1,19 @@
+$colors: (
+  blue: #1795d4,
+  yellow: #fed800,
+  grey: #eee,
+  darkgrey: #373d45,
+  white: #fff,
+  charcoal: #333
+);
+
+$theme: (
+  primary: color(blue),
+  secondary: color(yellow),
+  light: color(grey),
+  dark: color(darkGrey),
+  white: color(white),
+  black: color(charcoal)
+);
+
+$calculator-border-color: theme(dark);

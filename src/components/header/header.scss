@@ -1,0 +1,19 @@
+@import '../../styles/imports';
+
+.calculator__header {
+  background-color: theme(primary);
+  padding: 1rem;
+  border: 0;
+  grid-column: 1 / span 4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.calculator__header-logo {
+  width: 50%;
+}
+
+.calculator__header-title {
+  color: theme(white)
+}
